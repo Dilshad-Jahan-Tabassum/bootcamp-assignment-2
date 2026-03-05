@@ -42,7 +42,7 @@ const Footer = () => {
 </footer>
 <footer>
          <hr className='border border-white text-center mx-10' />
-         <p className=' font-semibold text-gray-400 text-center mt-5 pb-3'>&copy; 2025 CS — Ticket System. All rights reserved.</p>
+         <p className='font-semibold text-gray-400 text-center mt-5 pb-3'>&copy; 2025 CS — Ticket System. All rights reserved.</p>
 </footer>
         </div>
     );
