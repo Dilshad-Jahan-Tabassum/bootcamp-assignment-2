@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1001,
+    "title": "Unable to Download Invoice",
+    "status": "In Progress",
+    "description": "Customer cannot download their January invoice from the billing section. The download button is unresponsive.",
+    "priority": "Medium",
+    "customer": "Michael Brown",
+    "createdAt": "2024-01-17"
+  },
+  {
+    "id": 1002,
+    "title": "Login Error After Password Reset",
+    "status": "Open",
+    "description": "User receives an error message when trying to log in after resetting the password.",
+    "priority": "High",
+    "customer": "Sarah Johnson",
+    "createdAt": "2024-01-18"
+  },
+  {
+    "id": 1003,
+    "title": "Payment Declined but Charged",
+    "status": "In Progress",
+    "description": "Customer’s card was charged even though the payment was marked as declined.",
+    "priority": "High",
+    "customer": "David Wilson",
+    "createdAt": "2024-01-19"
+  },
+  {
+    "id": 1004,
+    "title": "Account Suspended Unexpectedly",
+    "status": "Open",
+    "description": "User account was suspended without prior notification or explanation.",
+    "priority": "High",
+    "customer": "Emily Davis",
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": 1005,
+    "title": "Shipping Address Not Updating",
+    "status": "Resolved",
+    "description": "Customer cannot update their shipping address from account settings.",
+    "priority": "Medium",
+    "customer": "James Anderson",
+    "createdAt": "2024-01-21"
+  },
+  {
+    "id": 1006,
+    "title": "App Crashes on Launch",
+    "status": "Open",
+    "description": "Mobile application crashes immediately after opening.",
+    "priority": "High",
+    "customer": "Olivia Martinez",
+    "createdAt": "2024-01-22"
+  },
+  {
+    "id": 1007,
+    "title": "Discount Code Not Working",
+    "status": "Closed",
+    "description": "Promo code shows invalid during checkout despite being active.",
+    "priority": "Low",
+    "customer": "Daniel Thomas",
+    "createdAt": "2024-01-23"
+  },
+  {
+    "id": 1008,
+    "title": "Profile Picture Upload Fails",
+    "status": "Open",
+    "description": "User receives an error when trying to upload a new profile image.",
+    "priority": "Low",
+    "customer": "Sophia Taylor",
+    "createdAt": "2024-01-24"
+  },
+  {
+    "id": 1009,
+    "title": "Email Notifications Not Received",
+    "status": "In Progress",
+    "description": "Customer is not receiving order confirmation and billing emails.",
+    "priority": "Medium",
+    "customer": "William Moore",
+    "createdAt": "2024-01-25"
+  },
+  {
+    "id": 1010,
+    "title": "Two-Factor Authentication Issue",
+    "status": "Open",
+    "description": "User is not receiving OTP during login process.",
+    "priority": "High",
+    "customer": "Isabella Jackson",
+    "createdAt": "2024-01-26"
+  },
+  {
+    "id": 1011,
+    "title": "Refund Not Processed",
+    "status": "In Progress",
+    "description": "Customer requested a refund but has not received confirmation or funds.",
+    "priority": "Medium",
+    "customer": "Benjamin Harris",
+    "createdAt": "2024-01-27"
+  },
+  {
+    "id": 1012,
+    "title": "Order Status Not Updating",
+    "status": "Closed",
+    "description": "Order tracking page is not showing the latest delivery status.",
+    "priority": "Low",
+    "customer": "Mia Clark",
+    "createdAt": "2024-01-28"
+  },
+  {
+    "id": 1013,
+    "title": "Cannot Change Password",
+    "status": "Resolved",
+    "description": "User unable to change password from security settings.",
+    "priority": "Medium",
+    "customer": "Lucas Hall",
+    "createdAt": "2024-01-29"
+  },
+  {
+    "id": 1014,
+    "title": "Billing Address Mismatch Error",
+    "status": "Open",
+    "description": "Customer receives billing address mismatch error during checkout.",
+    "priority": "High",
+    "customer": "Amelia Young",
+    "createdAt": "2024-01-30"
+  },
+  {
+    "id": 1015,
+    "title": "Subscription Cancellation Issue",
+    "status": "In Progress",
+    "description": "User unable to cancel subscription from account dashboard.",
+    "priority": "Medium",
+    "customer": "Henry King",
+    "createdAt": "2024-01-31"
+  }
+]
