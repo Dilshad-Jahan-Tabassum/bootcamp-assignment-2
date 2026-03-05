@@ -1,4 +1,5 @@
 import React from 'react';
+import './Navbar.css';
 import { FaMinus, FaPlus  } from "react-icons/fa6";
 
 const Navbar = () => {
