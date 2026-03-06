@@ -6,11 +6,11 @@ const Footer = () => {
         <div className="h-full bg-black text-white">
             <footer className="footer sm:footer-horizontal p-10">
   <aside>
-        <p className="w-full lg:w-64">
+        <div className="w-full lg:w-64">
             <p className="flex items-center font-bold">CS<span><FaMinus /></span>Ticket System</p>
             <p className="text-gray-400">CS ticket is a platform designed to manage customer support requests smoothly. We help organize customer requests in one place. Easily track, prioritize, and resolve issues for better customer service.</p>
     
-        </p>
+        </div>
   </aside>
   <nav>
     <h6 className="footer-title">Company</h6>

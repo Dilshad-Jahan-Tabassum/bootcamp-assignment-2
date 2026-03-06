@@ -1,6 +1,6 @@
 [
   {
-    "id": 1001,
+    "id": "1001",
     "title": "Unable to Download Invoice",
     "status": "In Progress",
     "description": "Customer cannot download their January invoice from the billing section. The download button is unresponsive.",
@@ -9,7 +9,7 @@
     "createdAt": "2024-01-17"
   },
   {
-    "id": 1002,
+    "id": "1002",
     "title": "Login Error After Password Reset",
     "status": "Open",
     "description": "User receives an error message when trying to log in after resetting the password.",
@@ -18,16 +18,16 @@
     "createdAt": "2024-01-18"
   },
   {
-    "id": 1003,
+    "id": "1003",
     "title": "Payment Declined but Charged",
     "status": "In Progress",
-    "description": "Customer’s card was charged even though the payment was marked as declined.",
+    "description": "Customers card was charged even though the payment was marked as declined.",
     "priority": "High",
     "customer": "David Wilson",
     "createdAt": "2024-01-19"
   },
   {
-    "id": 1004,
+    "id": "1004",
     "title": "Account Suspended Unexpectedly",
     "status": "Open",
     "description": "User account was suspended without prior notification or explanation.",
@@ -36,7 +36,7 @@
     "createdAt": "2024-01-20"
   },
   {
-    "id": 1005,
+    "id": "1005",
     "title": "Shipping Address Not Updating",
     "status": "Resolved",
     "description": "Customer cannot update their shipping address from account settings.",
@@ -45,7 +45,7 @@
     "createdAt": "2024-01-21"
   },
   {
-    "id": 1006,
+    "id": "1006",
     "title": "App Crashes on Launch",
     "status": "Open",
     "description": "Mobile application crashes immediately after opening.",
@@ -54,7 +54,7 @@
     "createdAt": "2024-01-22"
   },
   {
-    "id": 1007,
+    "id": "1007",
     "title": "Discount Code Not Working",
     "status": "Closed",
     "description": "Promo code shows invalid during checkout despite being active.",
@@ -63,7 +63,7 @@
     "createdAt": "2024-01-23"
   },
   {
-    "id": 1008,
+    "id": "1008",
     "title": "Profile Picture Upload Fails",
     "status": "Open",
     "description": "User receives an error when trying to upload a new profile image.",
@@ -72,7 +72,7 @@
     "createdAt": "2024-01-24"
   },
   {
-    "id": 1009,
+    "id": "1009",
     "title": "Email Notifications Not Received",
     "status": "In Progress",
     "description": "Customer is not receiving order confirmation and billing emails.",
@@ -81,7 +81,7 @@
     "createdAt": "2024-01-25"
   },
   {
-    "id": 1010,
+    "id": "1010",
     "title": "Two-Factor Authentication Issue",
     "status": "Open",
     "description": "User is not receiving OTP during login process.",
@@ -90,7 +90,7 @@
     "createdAt": "2024-01-26"
   },
   {
-    "id": 1011,
+    "id": "1011",
     "title": "Refund Not Processed",
     "status": "In Progress",
     "description": "Customer requested a refund but has not received confirmation or funds.",
@@ -99,7 +99,7 @@
     "createdAt": "2024-01-27"
   },
   {
-    "id": 1012,
+    "id": "1012",
     "title": "Order Status Not Updating",
     "status": "Closed",
     "description": "Order tracking page is not showing the latest delivery status.",
@@ -108,7 +108,7 @@
     "createdAt": "2024-01-28"
   },
   {
-    "id": 1013,
+    "id": "1013",
     "title": "Cannot Change Password",
     "status": "Resolved",
     "description": "User unable to change password from security settings.",
@@ -117,7 +117,7 @@
     "createdAt": "2024-01-29"
   },
   {
-    "id": 1014,
+    "id": "1014",
     "title": "Billing Address Mismatch Error",
     "status": "Open",
     "description": "Customer receives billing address mismatch error during checkout.",
@@ -126,7 +126,7 @@
     "createdAt": "2024-01-30"
   },
   {
-    "id": 1015,
+    "id": "1015",
     "title": "Subscription Cancellation Issue",
     "status": "In Progress",
     "description": "User unable to cancel subscription from account dashboard.",
