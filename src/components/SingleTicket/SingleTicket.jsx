@@ -15,7 +15,7 @@ const SingleTicket = ({ticket, taskList, handleCompleteTask}) => {
            
             <div className="card bg-base-100 shadow-xl p-5 border h-48 lg:w-120">
   
-  <div className="">
+  <div className="flex flex-col h-full">
     <div className='flex justify-between'>
         <h2 className="card-title ">{title}</h2>
         <span className={`"badge flex items-center gap-1 py-1 px-2 rounded-xl font-medium" ${isTaskExist? "bg-amber-400 text-amber-800" : "bg-green-400 text-green-700"}`}><span><FaCircle /></span>
@@ -26,11 +26,11 @@ const SingleTicket = ({ticket, taskList, handleCompleteTask}) => {
             }
         </span>
     </div>
-    <div className="card-actions ">
-        <p className="text-lg text-gray-500">{description}</p>
+    
+    <p className="text-lg text-gray-500 mt-2">{description}</p>
         
-    </div>
-    <div className='flex justify-between items-center mt-2'>
+    
+    <div className='flex justify-between items-center mt-auto '>
         <div className='flex flex-row items-center gap-2'>
             <p className='text-gray-500 font-semibold'>#{id}</p>
             <p className={`text-sm lg:text-lg font-semibold ${priority === 'High' ? "text-red-500" : priority === 'Medium' ? "text-yellow-500" : "text-green-500"}`}>
