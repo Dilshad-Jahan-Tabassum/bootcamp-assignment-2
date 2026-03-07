@@ -13,7 +13,7 @@ const SingleTicket = ({ticket, taskList, handleCompleteTask}) => {
     return (
         <div onClick={() =>handleCompleteTask(ticket)}>
            
-            <div className="card bg-base-100 shadow-xl p-5 border h-48 lg:w-120">
+            <div className="card bg-base-100 shadow-xl p-5 border h-auto lg:h-48 lg:w-120">
   
   <div className="flex flex-col h-full">
     <div className='flex justify-between'>
@@ -30,16 +30,16 @@ const SingleTicket = ({ticket, taskList, handleCompleteTask}) => {
     <p className="text-lg text-gray-500 mt-2">{description}</p>
         
     
-    <div className='flex justify-between items-center mt-auto '>
+    <div className='flex justify-between items-center text-[14px] font-normal lg:font-semibold mt-auto'>
         <div className='flex flex-row items-center gap-2'>
-            <p className='text-gray-500 font-semibold'>#{id}</p>
-            <p className={`text-sm lg:text-lg font-semibold ${priority === 'High' ? "text-red-500" : priority === 'Medium' ? "text-yellow-500" : "text-green-500"}`}>
+            <p className='text-gray-500 '>#{id}</p>
+            <p className={` ${priority === 'High' ? "text-red-500" : priority === 'Medium' ? "text-yellow-500" : "text-green-500"}`}>
                 {priority.toUpperCase()} PRIORITY
             </p>
         </div>
         <div className='flex flex-row items-center gap-2'>
-            <p className='text-gray-500 font-semibold'>{customer}</p> 
-            <p className='text-gray-500 lg:font-semibold flex items-center gap-1'><FaRegCalendarAlt /> {createdAt}</p> 
+            <p className='text-gray-500 '>{customer}</p> 
+            <p className='text-gray-500 flex justify-center items-center gap-1'><FaRegCalendarAlt /> {createdAt}</p> 
         </div>
     </div>
   </div>

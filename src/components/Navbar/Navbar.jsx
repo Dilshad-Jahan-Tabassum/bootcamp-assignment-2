@@ -5,7 +5,7 @@ import { FaMinus, FaPlus  } from "react-icons/fa6";
 const Navbar = () => {
     return (
         <section className='bg-base-100 shadow-sm'>
-            <div className="navbar w-11/12 mx-auto">
+            <div className="navbar w-full lg:w-11/12 lg:mx-auto">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden">
@@ -22,7 +22,7 @@ const Navbar = () => {
         <li><a>Contact</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl font-bold">CS<span><FaMinus /></span>Ticket System</a>
+    <a className="btn btn-ghost lg:text-xl font-bold">CS<span><FaMinus /></span>Ticket System</a>
   </div>
   <div className="navbar-end ">
     <ul className="menu menu-horizontal px-1 hidden lg:flex">
